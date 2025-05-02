@@ -1,50 +1,28 @@
-# React + TypeScript + Vite
+# Teste Edacy
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# NB : pour la connection utilisons les identifiants 
+   ## Login : Malick
+   ## Mot de passe : 1805
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+j'ai codé ce teste avec react + vite + ts
 
-## Expanding the ESLint configuration
+## la page de connection 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![login](./src/assets/readme/login.png)
 
-- Configure the top-level `parserOptions` property like this:
+## la page d'accueil
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![home](./src/assets/readme/accueil.png)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## popup de modification
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![update](./src/assets/readme/update.png)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## popup de suppression
+
+![Logo](./src/assets/readme/delete.png)
+
+## la page d'ajout
+
+![Logo](./src/assets/readme/ajouter.png)
