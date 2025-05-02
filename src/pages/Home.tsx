@@ -55,6 +55,7 @@ export default function Home() {
     }
   };
 
+  
   const handleCloseModal = () => {
     setIsModalOpen(false);
     setSelectedUserId(null);
