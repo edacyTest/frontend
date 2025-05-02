@@ -1,4 +1,4 @@
-# Teste Edacy
+# Teste Edacy Frontend
 
 # NB : pour la connection utilisons les identifiants 
    ## Login : Malick
